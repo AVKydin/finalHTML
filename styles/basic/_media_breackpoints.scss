@@ -1,0 +1,13 @@
+@mixin desktop() {
+    @media (min-width: $breackpoint_xl) {
+        @content;
+    }
+    
+}
+
+@mixin tablet() {
+    @media (min-width: $breackpoint_md) {
+        @content;
+    }
+    
+}
